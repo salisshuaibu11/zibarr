@@ -1,0 +1,19 @@
+{
+  "name": "zibarr",
+  "version": "1.0.0",
+  "description": "A package that encapsulates the course playing functionality for all zibarr platforms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salisshuaibu11/zibarr.git"
+  },
+  "author": "Salisu Shuaibu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salisshuaibu11/zibarr/issues"
+  },
+  "homepage": "https://github.com/salisshuaibu11/zibarr#readme"
+}
