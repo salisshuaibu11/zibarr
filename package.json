@@ -4,7 +4,7 @@
   "description": "A package that encapsulates the course playing functionality for all zibarr platforms",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/salisshuaibu11/zibarr/issues"
   },
-  "homepage": "https://github.com/salisshuaibu11/zibarr#readme"
+  "homepage": "https://github.com/salisshuaibu11/zibarr#readme",
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "rollup": "^3.21.4"
+  }
 }
